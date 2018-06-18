@@ -2,11 +2,13 @@
   "name": "cryptocurrency-price-checker",
   "version": "v1.0.0",
   "description": "Check Price of your favorite Cryptocurrency",
+  "repository": "https://github.com/harbir478/CryptoLivePrice.git",
   "main": "index.js",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "start": "node server.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test":
+      "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "postinstall": "webpack -p"
   },
